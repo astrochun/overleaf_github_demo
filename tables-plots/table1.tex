@@ -1,0 +1,11 @@
+\doublespacing % Note that this means you should declare the setspace package in any document including this table
+               % (included only for aesthetic purposes)
+\begin{tabular}{c|l l} % Vertical bars give lines, which people don't appreciate for some reason. 
+                       % alignment options for each column: c = center, l = left, r = right  
+                 & Post-scarcity  & Austerity \\ \hline % There are fancier ways to make a horizontal line, see below
+Techno-optimist  & Star Trek      & Robocop    \\ % Line breaks are required, as they define rows
+Techno-pessimist & Matrix         & Terminator \\
+% The alignments above are for readability only. They are unnecessary for compiling.
+\end{tabular}
+
+% For fancier tables, use the popular booktabs package, which includes weighted lines in the \toprule, \midrule, \bottomrule commands.
